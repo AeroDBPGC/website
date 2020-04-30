@@ -1,0 +1,218 @@
+.contactanimation {
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 1px -1px 25px -6px #808183;
+    transition: 0.2s;
+    margin: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+#sky {
+    overflow: hidden;
+    position: relative;
+    background: #85b9dd;
+	background: -webkit-linear-gradient(top, #C6D9E8 0%, #fff 100%);
+	background: -linear-gradient(top, #C6D9E8 0%, #fff 100%);
+	background: -moz-linear-gradient(top, #C6D9E8 0%, #fff 100%);
+    height: 400px;
+}
+
+.cloud {
+    position: absolute;
+    background-image: url('https://www.dl.dropboxusercontent.com/s/31ivp5fsjcgytgp/cloud1.png');
+    background-repeat: no-repeat;
+    width: 176px;
+    height: 114px;
+}
+
+#cloud1 {
+    top: 40px;
+    left: 400px;
+    -webkit-animation: movingclouds 10s linear infinite;
+	-moz-animation: movingclouds 10s linear infinite;
+	-o-animation: movingclouds 10s linear infinite;
+}
+
+#cloud2 {
+    top: 10px;
+    left: 600px;
+    -webkit-animation: movingclouds 13s linear infinite;
+	-moz-animation: movingclouds 13s linear infinite;
+	-o-animation: movingclouds 13s linear infinite;
+}
+
+#cloud3 {
+    top: 100px;
+    left: 100px;
+    -webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+	transform: scale(0.9);
+	opacity: 0.9; 
+    -webkit-animation: movingclouds 15s linear infinite;
+	-moz-animation: movingclouds 15s linear infinite;
+	-o-animation: movingclouds 15s linear infinite;
+}
+
+#cloud4 {
+    top: -20px;
+    left: 40px;
+    -webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+	transform: scale(0.8);
+	opacity: 0.8; 
+    -webkit-animation: movingclouds 20s linear infinite;
+	-moz-animation: movingclouds 20s linear infinite;
+	-o-animation: movingclouds 20s linear infinite;
+}
+
+#cloud5 {
+    top: 100px;
+    left: 500px;
+    -webkit-transform: scale(0.7);
+	-moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+	transform: scale(0.7);
+	opacity: 0.7; 
+    -webkit-animation: movingclouds 25s linear infinite;
+	-moz-animation: movingclouds 25s linear infinite;
+	-o-animation: movingclouds 25s linear infinite;
+}
+
+#cloud6 {
+    top: 20px;
+    left: 200px;
+    -webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+	transform: scale(0.5);
+	opacity: 0.5; 
+    -webkit-animation: movingclouds 27s linear infinite;
+	-moz-animation: movingclouds 27s linear infinite;
+	-o-animation: movingclouds 27s linear infinite;
+}
+
+#cloud7 {
+    top: 92px;
+    left: 700px;
+    -webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+	transform: scale(0.4);
+	opacity: 0.4; 
+    -webkit-animation: movingclouds 29s linear infinite;
+	-moz-animation: movingclouds 29s linear infinite;
+	-o-animation: movingclouds 29s linear infinite;
+}
+
+#aeroplane{
+    position: absolute;
+    background-image: url('https://www.dl.dropboxusercontent.com/s/5beukq1zg37jlr7/airbus.png');
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 70px;
+    -webkit-animation: movingplane 10s linear infinite;
+	-moz-animation: movingplane 10s linear infinite;
+    -o-animation: movingplane 10s linear infinite;
+}
+@keyframes movingclouds {
+	0% {margin-left: 100%;}
+	100% {margin-left: -150%;}
+}
+@-webkit-keyframes movingclouds {
+	0% {margin-left: 100%;}
+	100% {margin-left: -150%;}
+}
+@-moz-keyframes movingclouds {
+	0% {margin-left: 100%;}
+	100% {margin-left: -150%;}
+}
+@keyframes movingplane {
+	0% { 
+        margin-left: 100%;
+        top:300px;
+    }
+    29% { 
+        margin-left: 50%; 
+        top: 50px; 
+        -webkit-transform: rotate(20deg);
+	    -moz-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+	    transform: rotate(20deg);
+    }
+    31% {
+        -webkit-transform: rotate(-20deg);
+	    -moz-transform: rotate(-20deg);
+        -ms-transform: rotate(-20deg);
+	    transform: rotate(-20deg);
+    }
+    60% {
+        margin-left: 0%; 
+        top: 300px;    
+    }
+    100% {
+        margin-left: -100%;
+        top: 300px;
+    }
+}
+@-webkit-keyframes movingplane {
+	0% { 
+        margin-left: 100%;
+        top:300px;
+    }
+    29% { 
+        margin-left: 50%; 
+        top: 50px; 
+        -webkit-transform: rotate(20deg);
+	    -moz-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+	    transform: rotate(20deg);
+    }
+    31% {
+        -webkit-transform: rotate(-20deg);
+	    -moz-transform: rotate(-20deg);
+        -ms-transform: rotate(-20deg);
+	    transform: rotate(-20deg);
+    }
+    60% {
+        margin-left: 0%; 
+        top: 300px;    
+    }
+    100% {
+        margin-left: -100%;
+        top: 300px;
+    }
+}
+@-moz-keyframes movingplane {
+	0% { 
+        margin-left: 100%;
+        top:300px;
+    }
+    29% { 
+        margin-left: 50%; 
+        top: 50px; 
+        -webkit-transform: rotate(20deg);
+	    -moz-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+	    transform: rotate(20deg);
+    }
+    31% {
+        -webkit-transform: rotate(-20deg);
+	    -moz-transform: rotate(-20deg);
+        -ms-transform: rotate(-20deg);
+	    transform: rotate(-20deg);
+    }
+    60% {
+        margin-left: 0%; 
+        top: 300px;    
+    }
+    100% {
+        margin-left: -100%;
+        top: 300px;
+    }
+}

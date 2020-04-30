@@ -1,0 +1,103 @@
+.clouds {
+    position: relative;
+    right: 15px;
+    background-image: url("../../images/Cloud.svg");
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    height:90vh;  
+    width: 100vw;
+    animation: moving 50s linear infinite;
+}
+
+.airplane {
+    position: absolute;
+    width: 100px;
+    right: 47%;
+    top: 70%;
+    animation: up 2s ease-in-out infinite alternate, rotate 4s ease-out infinite;
+}
+
+.trees {
+    position:absolute;
+    right: 1px;
+    background-image: url('http://jessicamichele.com/wp-content/uploads/2019/04/atree.svg');
+    background-position: 0px 0px;
+      background-repeat: repeat-x;
+    height:124px;
+    width:100vw;
+    bottom:0;
+    animation: moving 30s linear infinite;
+}
+
+@keyframes moving{
+    to{
+      background-position: -110% 0;
+    }
+}
+
+@keyframes up{
+    to{
+      margin-top:-100px;
+    }
+  }
+
+  @keyframes rotate{
+    50%{
+      transform: rotate(-15deg);
+    }
+    75%{
+      transform: rotate(20deg);
+    }
+  }
+
+  @media (max-width: 575.98px) { 
+
+    .clouds{
+        animation: moving 3s linear infinite;
+      }
+
+      .container2 {
+        position: relative;
+    
+        .logowrapper {
+            position: absolute;
+            padding: 0;
+            margin: 0;
+            left: 15%;
+            right: 25%;
+            bottom: 40%;
+            text-align: center;
+            width: auto;
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .clouds{
+        animation: moving 3s linear infinite;
+      }
+
+      .container2 {
+        position: relative;
+    
+        .logowrapper {
+            position: absolute;
+            padding: 0;
+            margin: 0;
+            left: 15%;
+            right: 25%;
+            bottom: 40%;
+            text-align: center;
+            width: auto;
+        }
+    }
+    
+
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) and (max-width: 991.98px) { 
+        .clouds{
+            animation: moving 3s linear infinite;
+          }
+     }
