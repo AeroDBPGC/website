@@ -2,7 +2,7 @@
 
 ### This project is under developement, basic functionality has been set up. Code needs lot of refactoring.
 
-###TODOS:
+TODOS:
 ---
 1. Google Doc Documentation
 2. Refactor componenets
