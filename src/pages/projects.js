@@ -15,27 +15,27 @@ import Footer from "../components/footer"
 
 // Project page.
 const ProjectPage = () => (
-    <div className={projectsPageStyle.wrapper}>
-        <Header siteTitle="PROJECTS" />
-        <Container className={projectsPageStyle.container}>
-            <Row>
-                <Col>
-                    <ProjectCard title={"PROJECT NAME"} description={"This is a brief description."} />
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <ProjectCard title={"FOREST DRONE"} description={"Best forest drone in town."} />
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <ProjectCard title={"RC AIRPLANE"} description={"Fly like never before."} />
-                </Col>
-            </Row>
-        </Container>
-        <Footer />
-    </div>
+  <div className={projectsPageStyle.wrapper}>
+    <Header siteTitle="PROJECTS" />
+    <Container className={projectsPageStyle.container}>
+      <Row>
+        <Col>
+          <ProjectCard title={"PROJECT NAME"} description={"This is a brief description."} />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <ProjectCard title={"FOREST DRONE"} description={"Best forest drone in town."} />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <ProjectCard title={"RC AIRPLANE"} description={"Fly like never before."} />
+        </Col>
+      </Row>
+    </Container>
+    <Footer />
+  </div>
 )
 
 export default ProjectPage

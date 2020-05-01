@@ -3,8 +3,10 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
+    overflow: hidden;
 }
 
 .container {
-    padding: 1rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
 }
