@@ -9,6 +9,7 @@ import ContactAnimation from "../components/contact/contactanimation"
 import ContactCard from "../components/contact/contactcards"
 
 import Header from "../components/header"
+import Footer from "../components/footer"
 
 const ContactPage = () => (
     <div className={contactPageStyle.wrapper}>
@@ -34,6 +35,7 @@ const ContactPage = () => (
                 </Col>
             </Row>
         </Container>
+        <Footer />
     </div>
 )
 

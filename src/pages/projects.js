@@ -11,6 +11,7 @@ import projectsPageStyle from "../styles/projects/projects.module.scss"
 // Custom components for Projects page.
 import Header from "../components/header"
 import ProjectCard from "../components/projects/projectcard"
+import Footer from "../components/footer"
 
 // Project page.
 const ProjectPage = () => (
@@ -33,6 +34,7 @@ const ProjectPage = () => (
                 </Col>
             </Row>
         </Container>
+        <Footer />
     </div>
 )
 
