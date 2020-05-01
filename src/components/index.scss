@@ -13,7 +13,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: #00adb5
+    background: rgb(95, 200, 247); //#00adb5
 }
 
 .container2 {
@@ -22,7 +22,7 @@
     flex-grow: 1;
     justify-content: center;
     overflow: hidden;
-    background: #00adb5; //#93D9D8; //
+    background: rgb(95, 200, 247); //#00adb5; //#93D9D8; //
     position: relative;
 
 }
