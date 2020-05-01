@@ -1,0 +1,19 @@
+.teamPicture {
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 1px -1px 25px -6px #808183;
+    margin: 1rem;
+    background-image: url("https://source.unsplash.com/random/300");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+@media (max-width: 767.98px) {
+    .teamPicture {
+        height: 300px;
+        margin-left: 0.2rem;
+        margin-right: 0.2rem;
+    }
+}

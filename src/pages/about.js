@@ -1,58 +1,53 @@
 import React from "react"
 
-import "../components/about.scss"
-
+// For Bootstrap responsive layout.
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import AboutCard from "../components/aboutcard"
-import ProfileCard from "../components/profilecard"
-import TeamCard from "../components/teamcard"
 
+// Styles for About page.
+import aboutPageStyle from "../styles/about/about.module.scss"
+
+// Custom components.
 import Header from "../components/header"
+import TeamPicture from "../components/about/teampicture"
+import AboutCard from "../components/about/aboutcard"
+import TeamCard from "../components/about/teamcard"
+import Footer from "../components/footer"
 
-import { FaRegDotCircle,FaDotCircle } from "react-icons/fa"
-import { GoPrimitiveDot, GoDash } from "react-icons/go"
-
-const ProjectPage = () => (
-  <>
-    <div className="wrapper">
-        <Header siteTitle="ABOUT US" />
-        <Container fluid="true" className="c2">
-            <Row className="">
-                <Col className="">
-                    <AboutCard></AboutCard>
-                </Col>
-            </Row>
+// About page.
+const AboutPage = () => (
+    <>
+        <div className={aboutPageStyle.containerMain}>
+            <Header siteTitle="ABOUT US" />
             <Container fluid="true">
-            <h2 className="text-center mt-3" style={{ fontFamily:`'Raleway', sans-serif`, fontSize:`2rem`, display:`block` }}><GoDash style={{ marginRight:`1px`, position:`relative`, bottom:`3px` }}></GoDash>MEET OUR LEADERS<GoDash style={{ marginLeft:`1px`, position:`relative`, bottom:`3px` }}></GoDash></h2>
-            <Row noGutters="true" className="mb-4">
-                <Col xs={12} md={4} className="">
-                    <ProfileCard></ProfileCard>
-                </Col>
-                <Col xs={12} md={4} className="">
-                    <ProfileCard></ProfileCard>
-                </Col>
-                <Col xs={12} md={4} className="">
-                    <ProfileCard></ProfileCard>
-                </Col>
-            </Row>
-            <h2 className="text-center mt-3" style={{ fontFamily:`'Raleway', sans-serif`, fontSize:`2rem` }}><GoDash style={{ marginRight:`1px`, position:`relative`, bottom:`3px` }}></GoDash>MEET THE TEAM<GoDash style={{ marginLeft:`1px`, position:`relative`, bottom:`3px` }}></GoDash></h2>
+                <Row>
+                    <Col>
+                        <TeamPicture />
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <AboutCard />
+                    </Col>
+                </Row>
             </Container>
-            <Row noGutters="true" className="mb-4">
-                <Col xs={12} md={4} className="">
-                    <TeamCard></TeamCard>
-                </Col>
-                <Col xs={12} md={4} className="">
-                    <TeamCard></TeamCard>
-                </Col>
-                <Col xs={12} md={4} className="">
-                    <TeamCard></TeamCard>
-                </Col>
-            </Row>
-        </Container>
-    </div>
+            <Container className={aboutPageStyle.containerTeamCard} fluid="true">
+                <Row noGutters="true">
+                    <Col xs={12} md={4}>
+                        <TeamCard name={`VARUN BANKAR`} title={`PUBG PLAYER`} />
+                    </Col>
+                    <Col xs={12} md={4}>
+                        <TeamCard name={`BHARAT GUPTA`} title={`CORDINATOR`} />
+                    </Col>
+                    <Col xs={12} md={4}>
+                        <TeamCard name={`NIVANT NIBBA`} title={`MEME MATERIAL`} />
+                    </Col>
+                </Row>
+            </Container>
+            <Footer />
+        </div>
     </>
 )
 
-export default ProjectPage
+export default AboutPage
