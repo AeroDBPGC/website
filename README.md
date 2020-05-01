@@ -9,3 +9,6 @@ TODOS:
 3. Clean up this repository
 4. Source Data
 5. Set up instructions
+
+### Status:
+- [x] Home page designed & refactored. 
