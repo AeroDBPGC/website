@@ -8,8 +8,6 @@ import Col from "react-bootstrap/Col";
 // Styles for Home page.
 import homePageStyle from "../styles/home/home.module.scss"
 
-import "../components/index.scss"
-
 // Custom components.
 import Header from "../components/header"
 import HomeAnimation from "../components/home/homeanimation"
