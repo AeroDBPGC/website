@@ -1,4 +1,4 @@
-.contactcard {
+.contactCard {
     height: 200px;
     border-radius: 15px;
     box-shadow: 1px -1px 25px -6px #808183;
@@ -8,27 +8,33 @@
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    padding: 1rem;
 
-    .image {
-        height: inherit;
-        width: inherit;
-        padding: 20px;
-        border-radius: 15px;
-        overflow: hidden;
-        
-        opacity: .2;
-        transition: 0.3s;
-    }
-
-    .image:hover {
-        opacity: .5;
-
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.contactcard:hover {
-    transform: scale(1.02,1.02);
-    filter: brightness(110%);
+.contactCard:hover {
+    transform: scale(1.01,1.01);
+    filter: brightness(105%);
     box-shadow: 1px -1px 30px #808183;
-    
+}
+
+.linkTitle {
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1.1px;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.linkDescription {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin-top: 0.25rem;
+    line-height: 1;
+    margin-bottom: 0;
 }
