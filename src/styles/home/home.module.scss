@@ -132,8 +132,14 @@
     font-weight: 800;
 }
 
-.linkDescription {
+.link {
+    text-decoration: none;
+    color: rgb(33, 37, 41);
+}
 
+.link:hover {
+    text-decoration: none;
+    color: rgb(33, 37, 41);
 }
 
 // Small devices (landscape phones, less than 768px)
@@ -149,6 +155,22 @@
 
     .cardsWrapper {
         padding-top: 1rem;
+    }
+
+    .card1 {
+        height: 250px;
+    }
+
+    .card2 {
+        height: 250px;
+    }
+
+    .card3 {
+        height: 250px;
+    }
+
+    .card4 {
+        height: 250px;
     }
 }
 
