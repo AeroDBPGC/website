@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:800&display=swap');
+
+.topSection {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background: rgb(95, 200, 247);
+}
+
+.topContainer {
+    position: relative;
+    background: rgb(95, 200, 247);
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.bottomSection {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bottomContainer {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+// TODO
+//.cardsWrapper {
+//    padding: 0;
+//}
+
+.card1 {
+    height: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 4px -4px 25px -6px #808183;
+    background: linear-gradient(45deg, #e13680, #a43ab2);
+    transition: 0.1s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card1:hover {
+    transform: scale(1.01,1.01);
+    filter: brightness(105%);
+    box-shadow: 4px -4px 30px -5px #808183;
+    cursor: pointer;
+}
+
+.card2 {
+    height: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 4px -4px 25px -6px #808183;
+    background: linear-gradient(220deg, #F7971E, #FFD200);
+    transition: 0.1s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card2:hover {
+    transform: scale(1.01,1.01);
+    filter: brightness(105%);
+    box-shadow: 4px -4px 30px -5px #808183;
+    cursor: pointer;
+}
+
+.card3 {
+    height: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 4px -4px 25px -6px #808183;
+    background: linear-gradient(45deg, #606c88, #3f4c6b);
+    transition: 0.1s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card3:hover {
+    transform: scale(1.01,1.01);
+    filter: brightness(105%);
+    box-shadow: 4px -4px 30px -5px #808183;
+    cursor: pointer;
+}
+
+.card4 {
+    height: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 4px -4px 25px -6px #808183;
+    background: linear-gradient(45deg, #41d8dd, #5583ee);
+    transition: 0.1s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card4:hover {
+    transform: scale(1.01,1.01);
+    filter: brightness(105%);
+    box-shadow: 4px -4px 30px -5px #808183;
+    cursor: pointer;
+}
+
+.row {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.col {
+    margin: 0;
+}
+
+.linkTitle {
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1.1px;
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+
+.linkDescription {
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    .col {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .cardsWrapper {
+        padding-top: 1rem;
+    }
+}
+

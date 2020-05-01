@@ -7,7 +7,7 @@ const style = {
 }
 
 const Footer = () => (
-  <footer  style={{padding: `1rem`}}>
+  <footer  style={{padding: `0.5rem`}}>
     <h5  style={style}>AERODYNAMICS CLUB © 2020</h5>
   </footer>
 )
