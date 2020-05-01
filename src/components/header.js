@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import navbarStyle from './header.module.scss'
+import navbarStyle from '../styles/header.module.scss'
 
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
