@@ -8,7 +8,7 @@ import navbarStyle from './header.module.scss'
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
-const Header = ({siteTitle}) => (
+const Header = ({ siteTitle }) => (
   <>
     <Navbar expand="lg">
       <Navbar.Brand className={navbarStyle.navHeader}>{siteTitle}</Navbar.Brand>
@@ -30,7 +30,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: '',
 }
 
 export default Header
