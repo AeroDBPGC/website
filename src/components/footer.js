@@ -7,8 +7,8 @@ const style = {
 }
 
 const Footer = () => (
-  <footer  style={{height: `50px`, padding: `1rem`}}>
-    <h5  style={style}>AERODYNAMICS CLUB © 2020 // VARUN BANKAR</h5>
+  <footer  style={{padding: `1rem`}}>
+    <h5  style={style}>AERODYNAMICS CLUB © 2020</h5>
   </footer>
 )
 
