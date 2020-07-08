@@ -1,14 +1,22 @@
-# AEROD BITS GOA SITE
+# AEROD CLUD - BITS GOA WEBSITE
 
-### This project is under developement, basic functionality has been set up. Code needs lot of refactoring.
+This repository contains the source code for the website of Aerodynamics club of BITS Goa. The project is in its last phase, where only `Project` page is left to be made and few other minor adjustments. The website can be visited using the link: https://cranky-panini-be7663.netlify.app
 
-TODOS:
+
+Technology stack
 ---
-1. Google Doc Documentation
-2. Refactor componenets
-3. Clean up this repository
-4. Source Data
-5. Set up instructions
+This project was created using Gatsby framework and deployed using Netlify. Gatsby is a framework based on React, [click here](https://www.gatsbyjs.org) to learn more about Gatsby and [here](https://www.netlify.com) to learn more about Netlify.
 
-### Status:
-- [x] Home page designed & refactored. 
+How to setup local development enviornment:
+---
+
+Make sure you have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed on your system. You can check it by using `git --version` and `node --version` commands respectively. If already installed, follow the commands below to setup the local development of this project on your machine.
+
+```
+git clone https://github.com/AeroDBPGC/website.git
+cd website
+npm i
+gatsby develop
+```
+---
+Please feel free to open an issue or contribute to the project by submitting a Pull Request. 😄
