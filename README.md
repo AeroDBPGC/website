@@ -9,7 +9,6 @@ This project was created using Gatsby framework and deployed using Netlify. Gats
 
 How to setup local development enviornment:
 ---
-
 Make sure you have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed on your system. You can check it by using `git --version` and `node --version` commands respectively. If already installed, follow the commands below to setup the local development of this project on your machine.
 
 ```
@@ -18,5 +17,11 @@ cd website
 npm i
 gatsby develop
 ```
+
+How to contribute:
+---
+
+We welcome everyone who want to contribute to this project, its a great time to learn and explore JAM Stack and this project uses all the fundamental technologies of it. If you want to contribute to our project, please read Contributing.md to get started.
+
 ---
 Please feel free to open an issue or contribute to the project by submitting a Pull Request. 😄
