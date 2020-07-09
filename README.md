@@ -15,8 +15,10 @@ Make sure you have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/)
 git clone https://github.com/AeroDBPGC/website.git
 cd website
 npm i
+npm install --global gatsby-cli
 gatsby develop
 ```
+run at http://localhost:8000/
 
 How to Contribute
 ---
