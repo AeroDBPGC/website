@@ -72,7 +72,7 @@ The most important folder of the project is the `src` folder. It contains all of
 * The `components` folder contains all the React components that is used for creating the website. The folder is further divided into sub folder according to the components on different website pages.
 * The `images` folder contains the image files that are used by the website. As of now almost of the mock images are directly source from the unsplash API.
 * The `pages` folder is a important folder. Here each file created becomes a page in the website and becomes accessible at `https://website.com/pagename`. 
-    * The website has 4 main pages and 1 error page. You can visit these pages by going to https://cranky-panini-be7663.netlify.app
+    * The website has 4 main pages and 1 error page. You can visit these pages by going to https://aerod.netlify.app
 * The `styles` folder contains all the style sheet for styling the React components. SCSS modules have been used to style the components. Don't worry you don't need to know SCSS in order to style the components, understanding of CSS will suffice.
     * The `styles` folder is further divide into subfolders according to styles applied to the components of certain pages.
     
