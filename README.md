@@ -1,6 +1,6 @@
 # AEROD CLUB - BITS GOA WEBSITE
 
-This repository contains the source code for the website of Aerodynamics club of BITS Goa. The project is in its last phase, where only `Project` page is left to be made and few other minor adjustments. The website can be visited using the link: https://cranky-panini-be7663.netlify.app
+This repository contains the source code for the website of Aerodynamics club of BITS Goa. The project is in its last phase, where only `Project` page is left to be made and few other minor adjustments. The website can be visited using the link: https://aerod.netlify.app
 
 
 Technology Stack
