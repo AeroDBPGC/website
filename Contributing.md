@@ -8,7 +8,7 @@ Project Requirements
 Before you start contributing, please make sure you have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed on your machine. This project is created using Gatsby framework, which a a framework built on React used to build fast static sites or web application.
 
 The project also needs you to have basic understanding of:
-* React - (Stateless function components would suffice)
+* React - (Stateless functional components would suffice)
 * Javascript
 * CSS - (Basics or Bootstrap)
 * HTML
@@ -85,8 +85,12 @@ Feel free to fork this repository and then setup a local development on your mac
 git clone [YOUR FORK LINK]
 cd website
 npm i
+npm install --global gatsby-cli
 gatsby develop
 ```
+
+The project will be accessible at http://localhost:8000
+
 After making the neccessary changes, you can submit a Pull Request to this repository which would then be reviewed and merged. 
 
 Learning Resources
