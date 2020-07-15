@@ -35,13 +35,58 @@ const AboutPage = () => (
             <Container className={aboutPageStyle.containerTeamCard} fluid="true">
                 <Row noGutters="true">
                     <Col xs={12} md={4}>
-                        <TeamCard name={`VARUN BANKAR`} title={`PUBG PLAYER`} />
+                        <TeamCard
+                            name={`PRANJAL ANAND`}
+                            title={`PRESIDENT`}
+                            link_linkedin={`https://www.linkedin.com/in/pranjal-anand-8906631a5/`}
+                            link_mail={`mailto: f20180874@goa.bits-pilani.ac.in`}
+                            link_github={`#`}
+                        />
                     </Col>
                     <Col xs={12} md={4}>
-                        <TeamCard name={`BHARAT GUPTA`} title={`CORDINATOR`} />
+                        <TeamCard
+                            name={`BHARAT GUPTA`}
+                            title={`CHIEF COORDINATOR`}
+                            link_linkedin={`https://www.linkedin.com/in/bharat-gupta-a5540a178/`}
+                            link_mail={`mailto: f20180446@goa.bits-pilani.ac.in`}
+                            link_github={`https://github.com/bharat787`}
+                        />
                     </Col>
                     <Col xs={12} md={4}>
-                        <TeamCard name={`NIVANT NIBBA`} title={`MEME MATERIAL`} />
+                        <TeamCard
+                            name={`RACHIT GUPTA`}
+                            title={`SUB COORDINATOR`}
+                            link_linkedin={`https://www.linkedin.com/in/rachit-gupta-847039194/`}
+                            link_mail={`mailto: f20190466@goa.bits-pilani.ac.in`}
+                            link_github={`#`}
+                        />
+                    </Col>
+                    <Col xs={12} md={4}>
+                        <TeamCard
+                            name={`ISHAN NEOGI`}
+                            title={`SUB COORDINATOR`}
+                            link_linkedin={`https://www.linkedin.com/in/ishan-neogi-5794281a9/`}
+                            link_mail={`mailto: f20190393@goa.bits-pilani.ac.in`}
+                            link_github={`#`}
+                        />
+                    </Col>
+                    <Col xs={12} md={4}>
+                        <TeamCard
+                            name={`SANJOG AGARWAL`}
+                            title={`INVENTORY HEAD`}
+                            link_linkedin={`https://www.linkedin.com/in/sanjog-agarwal-7455851b1/`}
+                            link_mail={`mailto: f20190419@goa.bits-pilani.ac.in`}
+                            link_github={`#`}
+                        />
+                    </Col>
+                    <Col xs={12} md={4}>
+                        <TeamCard
+                            name={`RATNAM PATEL`}
+                            title={`MEDIA AND PR HEAD`}
+                            link_linkedin={`https://www.linkedin.com/in/ratnam-patel-524790197/`}
+                            link_mail={`mailto: f20190416@goa.bits-pilani.ac.in`}
+                            link_github={`#`}
+                        />
                     </Col>
                 </Row>
             </Container>
