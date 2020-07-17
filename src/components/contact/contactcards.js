@@ -20,7 +20,7 @@ const ContactCard = (props) => {
               <p className={contactCardStyle.linkDescription}>{ props.description }</p>
             </div>
         </div>
-        <Modal show={show} onHide={handleClose}>
+        <Modal size="lg" show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>Google Form</Modal.Title>
           </Modal.Header>
