@@ -21,20 +21,20 @@ const ContactPage = () => (
             <Row>
                 <Col>
                     <ContactAnimation />
-                </Col> 
+                </Col>
             </Row>
             <Row noGutters="true" className={contactPageStyle.containerCard}>
-                <Col lg={6} xl={3} md={6} xs={12}>
-                    <ContactCard background={"linear-gradient(45deg, #e13680, #a43ab2)"} title1={"HAVE A"} title2={"QUESTION?"} description={"Connect with us instantly by filling this Google Form."} />
+                <Col xl={3} md={6} xs={12}>
+                    <ContactCard background={"linear-gradient(45deg, #e13680, #a43ab2)"} title1={"HAVE A"} title2={"QUESTION?"} description={"Connect with us instantly by filling this Google Form."} g_form="https://docs.google.com/forms/d/e/1FAIpQLScqwmQpOgZH9sGSQy9KgT6Uqhlu-c8X7e3PaDSSoqcy0jdFnw/viewform?embedded=true" />
                 </Col>
-                <Col lg={6} xl={3} md={6} xs={12}>
-                    <ContactCard background={"linear-gradient(220deg, #F7971E, #FFD200)"} title1={"LOOKING TO"} title2={"FUND US?"} description={"Yay! Please contact us through this form and we will get back ASAP."}/>
+                <Col xl={3} md={6} xs={12}>
+                    <ContactCard background={"linear-gradient(220deg, #F7971E, #FFD200)"} title1={"LOOKING TO"} title2={"FUND US?"} description={"Yay! Please contact us through this form and we will get back ASAP."} g_form="https://docs.google.com/forms/d/e/1FAIpQLScmyFq6C5qDh1_XBcH57LbKRpYzr946eIe1wS-kmfwvExOJYg/viewform?embedded=true" />
                 </Col>
-                <Col lg={6} xl={3} md={6} xs={12}>
-                    <ContactCard background={"linear-gradient(45deg, #41d8dd, #5583ee)"} title1={"WANT TO"} title2={"PROPOSE AN IDEA?"} description={"We love to discuss idea and work towards bringing them to life. Click here!"}/>
+                <Col xl={3} md={6} xs={12}>
+                    <ContactCard background={"linear-gradient(45deg, #41d8dd, #5583ee)"} title1={"WANT TO"} title2={"PROPOSE AN IDEA?"} description={"We love to discuss idea and work towards bringing them to life. Click here!"} g_form="https://docs.google.com/forms/d/e/1FAIpQLSceBVPCnb8z453TR_xdaUnQPHOSQXXGhIs85z3jUa0eodV3sg/viewform?embedded=true" />
                 </Col>
-                <Col lg={6} xl={3} md={6} xs={12}>
-                    <ContactCard background={`linear-gradient(45deg, #606c88, #3f4c6b)`} title1={"BITS STUDENT"} title2={"FOR INDUCTION?"} description={"We are very selective with whom we work with. If you think you have got what it takes, hits us up."} />
+                <Col xl={3} md={6} xs={12}>
+                    <ContactCard background={`linear-gradient(220deg, #799f0c, #acbb78)`} title1={"BITS STUDENT"} title2={"FOR INDUCTION?"} description={"We are very selective with whom we work with. If you think you have got what it takes, hits us up."} g_form="https://docs.google.com/forms/d/e/1FAIpQLSfukHzseT8V59igwKwoSCK58JTHL5PPiaAg5RdGn6WPLhJR9Q/viewform?embedded=true" />
                 </Col>
             </Row>
         </Container>
