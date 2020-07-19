@@ -6,7 +6,7 @@ import logo from "../../images/Logo.svg"
 const HomeLogo = () => (
     <>
         <div className={homeLogoStyle.logowrapper}>
-            <img src={logo} className={homeLogoStyle.logo} />
+            <img src={logo} className={homeLogoStyle.logo} alt="" />
         </div>
     </>
 )
