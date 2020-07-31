@@ -35,8 +35,10 @@ const BlogPage = () => {
                 {data.allMarkdownRemark.edges.map(edge => (                                      
                       <Link to={ `/blog/${edge.node.fields.slug}` } style={{ textDecoration: "none", color: "#FFF" }}>
                         <li className={ blogCardStyle.blogCard }>
-                          <h2 className={ blogCardStyle.blogTitle }>{ edge.node.frontmatter.title }</h2>
-                          <p className={ blogCardStyle.blogDate }><i>Date Posted:</i> <strong>{ edge.node.frontmatter.date }</strong></p>
+                          <div className={ blogCardStyle.blogTextWrapper }>
+                            <h2 className={ blogCardStyle.blogTitle }>{ edge.node.frontmatter.title }</h2>
+                            <p className={ blogCardStyle.blogDate }><i>Date Posted:</i> <strong>{ edge.node.frontmatter.date }</strong></p>
+                          </div>
                         </li>
                       </Link>                
                   ))}

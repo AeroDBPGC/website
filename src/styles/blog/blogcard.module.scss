@@ -2,42 +2,47 @@
     height: 200px;
     border-radius: 15px;
     box-shadow: 1px -1px 25px -6px #808183;
-    transition: 0.2s;
-    margin: .5rem;
-
-    background-image: linear-gradient(0deg, rgba(44, 43, 43, 0.8), rgba(44, 43, 43, 0.4), rgba(44, 43, 43, 0.2), rgba(44, 43, 43, 0)), url("https://source.unsplash.com/random/200");
+    transition: 0.15s;
+    margin: 1rem;
+    padding: 1rem;
+    background-image: linear-gradient(0deg, rgba(44, 43, 43, 0.8), rgba(44, 43, 43, 0.4), rgba(44, 43, 43, 0.2), rgba(44, 43, 43, 0)), url("https://source.unsplash.com/random/300");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    padding: 1rem;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .blogCard:hover {
-    transform: scale(1.01,1.01);
+    transform: scale(1.005,1.005);
     filter: brightness(105%);
-    box-shadow: 1px -1px 30px #808183;
+    box-shadow: 1px -1px 30px -4px #808183;
     cursor: pointer;
 }
 
+.blogTextWrapper {
+    border-left: solid 0.4rem rgb(229, 9, 20);
+    padding: 0 0 0 0.3rem;
+}
+
 .blogTitle {
-    line-height: 1; 
-    padding: 0;
-    margin: 0;
     font-family: 'Raleway', sans-serif;
-    letter-spacing: 1.1px;
-    font-size: 1.8rem;
-    font-weight: 800;
+    font-size: 2.2rem;
+    color: rgb(243, 243, 243);
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 100px;
+    line-height: 1;
 }
 
 .blogDate {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    margin-top: 0.25rem;
-    line-height: 1;
-    margin-bottom: 0;
+    color: rgb(235, 235, 235);
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 300px) {    // For devices less than 300px wide, example - Galaxy Fold 
+    .blogTitle {
+        font-size: 1.8rem;
+        margin-top: 80px;
+    }
 }

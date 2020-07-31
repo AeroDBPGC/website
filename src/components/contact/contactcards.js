@@ -28,7 +28,8 @@ const ContactCard = (props) => {
             <iframe src={props.g_form} width="100%" height="500px" frameborder="0" marginheight="0" marginwidth="0" title="Google Form">Loading…</iframe>
           </Modal.Body>
           <Modal.Footer>
-            <Button variant="danger" onClick={handleClose}>
+            {/* <p style={{fontSize: "70%"}}>If you are unable to access this form, make sure you have logged in via your BITSMail Account, and then try again.</p> */}
+            <Button variant="danger" onClick={handleClose}>                            
               Close
             </Button>
           </Modal.Footer>
