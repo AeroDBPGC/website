@@ -1,5 +1,6 @@
 ---
 title: "Sample Post"
+author: "Little Boy"
 date: "24-07-2020"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Sample Post"
+author: "Fat Man"
 date: "22-07-2020"
 ---
 

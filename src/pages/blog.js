@@ -16,6 +16,7 @@ const BlogPage = () => {
             node {
               frontmatter {
                 title
+                author
                 date
               }     
               fields {
@@ -37,6 +38,7 @@ const BlogPage = () => {
                         <li className={ blogCardStyle.blogCard }>
                           <div className={ blogCardStyle.blogTextWrapper }>
                             <h2 className={ blogCardStyle.blogTitle }>{ edge.node.frontmatter.title }</h2>
+                            {/* <p className={blogCardStyle.blogAuthor}><i>Written By:</i> <strong>{ edge.node.frontmatter.author }</strong></p> */}
                             <p className={ blogCardStyle.blogDate }><i>Date Posted:</i> <strong>{ edge.node.frontmatter.date }</strong></p>
                           </div>
                         </li>
