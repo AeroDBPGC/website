@@ -55,12 +55,14 @@ const IndexPage = () => (
           </Row>
           <Row className={homePageStyle.row}>
             <Col className={homePageStyle.col} lg={4} md={6}>
-              <div onClick={() => {alert("Coming Soon!")}} className={homePageStyle.card3}>
-                <div>
-                  <p className={homePageStyle.linkTitle}>CHECK</p>
-                  <p className={homePageStyle.linkTitle}>THE BLOG→</p>
+              <Link to="/blog/" className={homePageStyle.link}>
+                <div className={homePageStyle.card3}>
+                  <div>
+                    <p className={homePageStyle.linkTitle}>CHECK</p>
+                    <p className={homePageStyle.linkTitle}>THE BLOG→</p>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </Col>
             <Col className={homePageStyle.col} lg={8} md={6}>
               <Link to="/contact/" className={homePageStyle.link}>
