@@ -1,6 +1,6 @@
 import React from "react"
 import { FaLinkedin, FaGithub, FaFacebook, FaInstagram, FaWikipediaW, FaEnvelope,FaMedium } from 'react-icons/fa';
-import teamCardStyle from "../styles/about/teamcard.module.scss"
+import footerCardStyle from "../styles/footer/footer.module.scss"
 
 const style = {
   textAlign: `center`,
@@ -11,9 +11,9 @@ const style = {
 const Footer = () => (
   <footer  style={{padding: `0.5rem`}}>
     <h5  style={style}>AERODYNAMICS CLUB © 2020-2021</h5>
-    <div className={teamCardStyle.socialIconContainer}>
-      <div className={teamCardStyle.socialIconWrapper}></div>
-        <div className={teamCardStyle.icon}>
+    <div className={footerCardStyle.socialIconContainer}>
+      <div className={footerCardStyle.socialIconWrapper}></div>
+        <div className={footerCardStyle.icon}>
           <a href={'https://github.com/orgs/Aerodynamics-Club/'}><FaGithub color="#000"/></a>
           <a href={'https://www.facebook.com/AeroD.BITSGoa/'}><FaFacebook color="#000"/></a>
           <a href={'mailto: ic.aero@goa.bits-pilani.ac.in'}><FaEnvelope color="#000"/></a>

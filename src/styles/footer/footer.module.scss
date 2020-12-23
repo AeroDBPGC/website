@@ -1,0 +1,29 @@
+.socialIconContainer {
+    z-index: -1;
+    position: relative;
+    bottom: 55px;
+}
+
+.socialIconWrapper {
+    display: flex;
+    justify-content: center;
+    position: center;
+}
+
+.icon {
+    margin: 0 1.5rem 10;
+    font-size: 2rem;
+    padding: 10;
+    position: center;
+}
+
+.icon:hover {
+    transform: scale(1.05 ,1.05);
+}
+
+@media (max-width: 767.98px) {
+    .teamCardOuter {
+        margin-left: 0.5rem;
+        margin-right: 0.2rem;
+    }
+}
