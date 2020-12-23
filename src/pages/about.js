@@ -15,6 +15,14 @@ import AboutCard from "../components/about/aboutcard"
 import TeamCard from "../components/about/teamcard"
 import Footer from "../components/footer"
 
+//Images for Team Members
+import Bharat from "../images/dp1.jpg"
+import Pranjal from "../images/PranjalPrez.jpg"
+import Rachit from "../images/RachitSubCo.jpg"
+// import * from "../images/*.jpg"
+// import * from "../images/*.jpg"
+// import * from "../images/*.jpg"
+
 // About page.
 const AboutPage = () => (
     <>
@@ -41,6 +49,7 @@ const AboutPage = () => (
                             link_linkedin={`https://www.linkedin.com/in/pranjal-anand-8906631a5/`}
                             link_mail={`mailto: f20180874@goa.bits-pilani.ac.in`}
                             link_github={`#`}
+                            img={Pranjal}
                         />
                     </Col>
                     <Col xs={12} md={4}>
@@ -50,6 +59,7 @@ const AboutPage = () => (
                             link_linkedin={`https://www.linkedin.com/in/bharat-gupta-a5540a178/`}
                             link_mail={`mailto: f20180446@goa.bits-pilani.ac.in`}
                             link_github={`https://github.com/bharat787`}
+                            img={Bharat}
                         />
                     </Col>
                     <Col xs={12} md={4}>
@@ -59,6 +69,7 @@ const AboutPage = () => (
                             link_linkedin={`https://www.linkedin.com/in/rachit-gupta-847039194/`}
                             link_mail={`mailto: f20190466@goa.bits-pilani.ac.in`}
                             link_github={`#`}
+                            img={Rachit}
                         />
                     </Col>
                     <Col xs={12} md={4}>
@@ -68,6 +79,7 @@ const AboutPage = () => (
                             link_linkedin={`https://www.linkedin.com/in/ishan-neogi-5794281a9/`}
                             link_mail={`mailto: f20190393@goa.bits-pilani.ac.in`}
                             link_github={`#`}
+                            img={`"https://source.unsplash.com/random/300"`}
                         />
                     </Col>
                     <Col xs={12} md={4}>
@@ -77,6 +89,7 @@ const AboutPage = () => (
                             link_linkedin={`https://www.linkedin.com/in/sanjog-agarwal-7455851b1/`}
                             link_mail={`mailto: f20190419@goa.bits-pilani.ac.in`}
                             link_github={`#`}
+                            img={`"https://source.unsplash.com/random/300"`}
                         />
                     </Col>
                     <Col xs={12} md={4}>
@@ -86,6 +99,7 @@ const AboutPage = () => (
                             link_linkedin={`https://www.linkedin.com/in/ratnam-patel-524790197/`}
                             link_mail={`mailto: f20190416@goa.bits-pilani.ac.in`}
                             link_github={`#`}
+                            img={`"https://source.unsplash.com/random/300"`}
                         />
                     </Col>
                 </Row>
