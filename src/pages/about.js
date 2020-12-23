@@ -19,9 +19,8 @@ import Footer from "../components/footer"
 import Bharat from "../images/dp1.jpg"
 import Pranjal from "../images/PranjalPrez.jpg"
 import Rachit from "../images/RachitSubCo.jpg"
-// import * from "../images/*.jpg"
-// import * from "../images/*.jpg"
-// import * from "../images/*.jpg"
+import Ishan from "../images/ishan.jpg"
+
 
 // About page.
 const AboutPage = () => (
@@ -79,7 +78,7 @@ const AboutPage = () => (
                             link_linkedin={`https://www.linkedin.com/in/ishan-neogi-5794281a9/`}
                             link_mail={`mailto: f20190393@goa.bits-pilani.ac.in`}
                             link_github={`#`}
-                            img={`"https://source.unsplash.com/random/300"`}
+                            img={Ishan}
                         />
                     </Col>
                     <Col xs={12} md={4}>

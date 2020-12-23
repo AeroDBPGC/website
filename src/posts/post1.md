@@ -1,7 +1,7 @@
 ---
-title: "Sample Post"
-author: "Random Guy"
-date: "19-07-2020"
+title: "Aviation During the Covid-19 Pandemic"
+author: "Hardik Shah"
+date: "27-07-2020"
 ---
 
 ![Random Image](./images/random.jpg)
