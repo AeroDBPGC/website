@@ -36,7 +36,7 @@ const IndexPage = () => (
               <Link to="/projects/" className={homePageStyle.link}>
                 <div className={homePageStyle.card1}>
                   <div>
-                    <p className={homePageStyle.linkTitle}>ACTIVE</p>
+                    <p className={homePageStyle.linkTitle}>CURRENT</p>
                     <p className={homePageStyle.linkTitle}>PROJECTS→</p>
                   </div>
                 </div>
@@ -68,8 +68,7 @@ const IndexPage = () => (
               <Link to="/contact/" className={homePageStyle.link}>
                 <div className={homePageStyle.card4}>
                   <div>
-                    <p className={homePageStyle.linkTitle}>FUND COOL</p>
-                    <p className={homePageStyle.linkTitle}>PROJECTS→</p>
+                    <p className={homePageStyle.linkTitle}>CONTACT US→</p>
                   </div>
                 </div>
               </Link>

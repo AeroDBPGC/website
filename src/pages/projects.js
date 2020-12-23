@@ -20,19 +20,19 @@ const ProjectPage = () => (
     <Container className={projectsPageStyle.container}>
       <Row>
         <Col>
-          <ProjectCard title={"PROJECT NAME"} description={"This is a brief description."} />
+          <ProjectCard title={"GENMAV"} description={"Contribute to an open source library from autonmous drone navigation."} />
         </Col>
       </Row>
       <Row>
         <Col>
-          <ProjectCard title={"FOREST DRONE"} description={"Best forest drone in town."} />
+          <ProjectCard title={"CAD Design"} description={"Design and build aircrafts using CAD."} />
         </Col>
       </Row>
-      <Row>
+      {/* <Row>
         <Col>
           <ProjectCard title={"RC AIRPLANE"} description={"Fly like never before."} />
         </Col>
-      </Row>
+      </Row> */}
     </Container>
     <Footer />
   </div>
