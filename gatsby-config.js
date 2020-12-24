@@ -3,10 +3,7 @@ module.exports = {
     title: `AeroD - BITS Goa`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `Varun Bankar`,
-  },
-  flags: {
-    THE_FLAG: false
-  },
+  },  
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
@@ -33,7 +30,12 @@ module.exports = {
       }
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        stripMetadata: false,        
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
