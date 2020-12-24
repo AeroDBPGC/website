@@ -4,13 +4,15 @@ import React from "react"
 import projectCardStyle from "../../styles/projects/projectcard.module.scss"
 
 // Project Card component.
-const ProjectCard = ({ title, description, img }) => (
-  <div className={projectCardStyle.card} style={{ backgroundImage: "url(" + img + ")"}}>
-    <div className={projectCardStyle.textWrapper}>
-      <h1 className={projectCardStyle.title}>{ title }</h1>
-      <p className={projectCardStyle.description}>{ description }</p>
-    </div>
-  </div>
+const ProjectCard = ({ title, description, repoLink, img }) => (
+  <a href={repoLink} style={{ textDecoration: "none", cursor: "pointer" }}>
+    <div className={projectCardStyle.card} style={{ backgroundImage: "url(" + img + ")" }}>
+      <div className={projectCardStyle.textWrapper}>
+        <h1 className={projectCardStyle.title}>{title}</h1>
+        <p className={projectCardStyle.description}>{description}</p>
+      </div>
+    </div >
+  </a>
 )
 
 export default ProjectCard

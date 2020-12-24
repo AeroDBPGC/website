@@ -17,13 +17,13 @@ const TeamCard = ({ name, title, link_linkedin, link_mail, link_github, img }) =
     <div className={teamCardStyle.socialIconContainer}>
       <div className={teamCardStyle.socialIconWrapper}>
         <div className={teamCardStyle.icon}>
-          <a href={link_linkedin}><FaLinkedin /></a>
+          <a aria-label="LinkedIn" href={link_linkedin}><FaLinkedin /></a>
         </div>
         <div className={teamCardStyle.icon}>
-          <a href={link_github}><FaGithub color="#000" /></a>
+          <a aria-label="Github" href={link_github}><FaGithub color="#000" /></a>
         </div>
         <div className={teamCardStyle.icon}>
-          <a href={link_mail}><FaEnvelope color="#00bce4" /></a>
+          <a aria-label="Mail" href={link_mail}><FaEnvelope color="#00bce4" /></a>
         </div>
       </div>
     </div>
