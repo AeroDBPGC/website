@@ -4,7 +4,7 @@ import React from "react"
 import projectCardStyle from "../../styles/projects/projectcard.module.scss"
 
 // Project Card component.
-const ProjectCard = ({ title, description }) => (
+const ProjectCard = ({ title, description, img }) => (
   <div className={projectCardStyle.card}>
     <div className={projectCardStyle.textWrapper}>
       <h1 className={projectCardStyle.title}>{ title }</h1>

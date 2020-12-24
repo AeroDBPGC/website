@@ -20,6 +20,8 @@ import Bharat from "../images/dp1.jpg"
 import Pranjal from "../images/PranjalPrez.jpg"
 import Rachit from "../images/RachitSubCo.jpg"
 import Ishan from "../images/ishan.jpg"
+import Ratnam from "../images/ratnam.jpeg"
+import Sanjog from "../images/sanjog.jpg"
 
 
 // About page.
@@ -88,7 +90,7 @@ const AboutPage = () => (
                             link_linkedin={`https://www.linkedin.com/in/sanjog-agarwal-7455851b1/`}
                             link_mail={`mailto: f20190419@goa.bits-pilani.ac.in`}
                             link_github={`#`}
-                            img={`"https://source.unsplash.com/random/300"`}
+                            img={Sanjog}
                         />
                     </Col>
                     <Col xs={12} md={4}>
@@ -98,7 +100,7 @@ const AboutPage = () => (
                             link_linkedin={`https://www.linkedin.com/in/ratnam-patel-524790197/`}
                             link_mail={`mailto: f20190416@goa.bits-pilani.ac.in`}
                             link_github={`#`}
-                            img={`"https://source.unsplash.com/random/300"`}
+                            img={Ratnam}
                         />
                     </Col>
                 </Row>
