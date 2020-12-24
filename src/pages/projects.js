@@ -24,14 +24,14 @@ const ProjectPage = () => (
     <Container className={projectsPageStyle.container}>
       <Row>
         <Col>
-          <ProjectCard title={"GENMAV"} description={"Contribute to an open source library from autonmous drone navigation."} 
-          img = {GenMav}/>
+          <ProjectCard title={"GENMAV"} description={"Contribute to an open source library from autonmous drone navigation."}
+            img={GenMav} repoLink={"https://github.com/Aerodynamics-Club/GenMAV"} />
         </Col>
       </Row>
       <Row>
         <Col>
           <ProjectCard title={"CAD Design"} description={"Design and build aircrafts using CAD."}
-          img={plane} />
+            img={plane} repoLink={"https://github.com/Aerodynamics-Club/Design"} />
         </Col>
       </Row>
       {/* <Row>
