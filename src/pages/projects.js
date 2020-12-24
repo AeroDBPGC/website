@@ -13,19 +13,25 @@ import Header from "../components/header"
 import ProjectCard from "../components/projects/projectcard"
 import Footer from "../components/footer"
 
+// Import project images
+import GenMav from "../images/genmav.png"
+import plane from "../images/Plane.png"
+
 // Project page.
 const ProjectPage = () => (
   <div className={projectsPageStyle.wrapper}>
-    <Header siteTitle="PROJECTS" />
+    <Header siteTitle="PROJECTS THIS SEM" />
     <Container className={projectsPageStyle.container}>
       <Row>
         <Col>
-          <ProjectCard title={"GENMAV"} description={"Contribute to an open source library from autonmous drone navigation."} />
+          <ProjectCard title={"GENMAV"} description={"Contribute to an open source library from autonmous drone navigation."} 
+          img = {GenMav}/>
         </Col>
       </Row>
       <Row>
         <Col>
-          <ProjectCard title={"CAD Design"} description={"Design and build aircrafts using CAD."} />
+          <ProjectCard title={"CAD Design"} description={"Design and build aircrafts using CAD."}
+          img={plane} />
         </Col>
       </Row>
       {/* <Row>

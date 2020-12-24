@@ -5,7 +5,7 @@
     transition: 0.15s;
     margin: 1rem;
     padding: 1rem;
-    background-image: linear-gradient(0deg, rgba(44, 43, 43, 0.8), rgba(44, 43, 43, 0.4), rgba(44, 43, 43, 0.2), rgba(44, 43, 43, 0)), url("https://source.unsplash.com/random/300");
+    // background-image: linear-gradient(0deg, rgba(44, 43, 43, 0.8), rgba(44, 43, 43, 0.4), rgba(44, 43, 43, 0.2), rgba(44, 43, 43, 0)), url("https://source.unsplash.com/random/300");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +27,7 @@
 .title {
     font-family: 'Raleway', sans-serif;
     font-size: 2.2rem;
-    color: rgb(243, 243, 243);
+    color: rgb(32, 26, 26);
     padding: 0;
     margin-bottom: 0;
     margin-top: 205px;
@@ -35,7 +35,7 @@
 }
 
 .description {
-    color: rgb(235, 235, 235);
+    color: rgb(112, 110, 110);
     padding: 0;
     margin: 0;
 }
