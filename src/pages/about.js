@@ -21,7 +21,7 @@ import Pranjal from "../images/PranjalPrez.jpg"
 import Rachit from "../images/RachitSubCo.jpg"
 import Ishan from "../images/ishan.jpg"
 import Ratnam from "../images/ratnam.jpeg"
-import Sanjog from "../images/sanjog.jpg"
+import Sanjog from "../images/sanjog1.jpg"
 
 
 // About page.

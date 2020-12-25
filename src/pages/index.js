@@ -69,6 +69,8 @@ const IndexPage = () => (
                 <div className={homePageStyle.card4}>
                   <div>
                     <p className={homePageStyle.linkTitle}>CONTACT US→</p>
+                    <p className={homePageStyle.linkSubTitle}>(Apply for inductions)</p>
+
                   </div>
                 </div>
               </Link>
