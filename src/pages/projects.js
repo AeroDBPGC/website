@@ -34,11 +34,12 @@ const ProjectPage = () => (
             img={plane} repoLink={"https://github.com/Aerodynamics-Club/Design"} />
         </Col>
       </Row>
-      {/* <Row>
+      <Row>
         <Col>
-          <ProjectCard title={"RC AIRPLANE"} description={"Fly like never before."} />
+          <ProjectCard title={"Dynamic Test Bed"} description={"Design a dynamic test bed to research and develop prototypes"} 
+          img={plane} repoLink={"https://github.com/Aerodynamics-Club/Design"}/>
         </Col>
-      </Row> */}
+      </Row>
     </Container>
     <Footer />
   </div>

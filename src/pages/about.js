@@ -13,6 +13,7 @@ import Header from "../components/header"
 import TeamPicture from "../components/about/teampicture"
 import AboutCard from "../components/about/aboutcard"
 import TeamCard from "../components/about/teamcard"
+import TeamCardGitless from "../components/about/teamcard_gitless"
 import Footer from "../components/footer"
 
 //Images for Team Members
@@ -44,7 +45,7 @@ const AboutPage = () => (
             <Container className={aboutPageStyle.containerTeamCard} fluid="true">
                 <Row noGutters="true">
                     <Col xs={12} md={4}>
-                        <TeamCard
+                        <TeamCardGitless
                             name={`PRANJAL ANAND`}
                             title={`PRESIDENT`}
                             link_linkedin={`https://www.linkedin.com/in/pranjal-anand-8906631a5/`}
@@ -64,7 +65,7 @@ const AboutPage = () => (
                         />
                     </Col>
                     <Col xs={12} md={4}>
-                        <TeamCard
+                        <TeamCardGitless
                             name={`RACHIT GUPTA`}
                             title={`SUB COORDINATOR`}
                             link_linkedin={`https://www.linkedin.com/in/rachit-gupta-847039194/`}
@@ -74,7 +75,7 @@ const AboutPage = () => (
                         />
                     </Col>
                     <Col xs={12} md={4}>
-                        <TeamCard
+                        <TeamCardGitless
                             name={`ISHAN NEOGI`}
                             title={`SUB COORDINATOR`}
                             link_linkedin={`https://www.linkedin.com/in/ishan-neogi-5794281a9/`}
@@ -84,7 +85,7 @@ const AboutPage = () => (
                         />
                     </Col>
                     <Col xs={12} md={4}>
-                        <TeamCard
+                        <TeamCardGitless
                             name={`SANJOG AGARWAL`}
                             title={`INVENTORY HEAD`}
                             link_linkedin={`https://www.linkedin.com/in/sanjog-agarwal-7455851b1/`}
@@ -94,7 +95,7 @@ const AboutPage = () => (
                         />
                     </Col>
                     <Col xs={12} md={4}>
-                        <TeamCard
+                        <TeamCardGitless
                             name={`RATNAM PATEL`}
                             title={`MEDIA AND PR HEAD`}
                             link_linkedin={`https://www.linkedin.com/in/ratnam-patel-524790197/`}
