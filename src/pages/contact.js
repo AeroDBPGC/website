@@ -34,7 +34,7 @@ const ContactPage = () => (
                     <ContactCard background={"linear-gradient(45deg, #41d8dd, #5583ee)"} title1={"WANT TO"} title2={"PROPOSE AN IDEA?"} description={"We love to discuss idea and work towards bringing them to life. Click here!"} g_form="https://docs.google.com/forms/d/e/1FAIpQLSceBVPCnb8z453TR_xdaUnQPHOSQXXGhIs85z3jUa0eodV3sg/viewform?embedded=true" />
                 </Col>
                 <Col xl={3} md={6} xs={12}>
-                    <ContactCard background={`linear-gradient(220deg, #799f0c, #acbb78)`} title1={"BITS STUDENT"} title2={"FOR INDUCTION?"} description={"We are very selective with whom we work with. If you think you have got what it takes, hits us up."} g_form="https://docs.google.com/forms/d/e/1FAIpQLSfukHzseT8V59igwKwoSCK58JTHL5PPiaAg5RdGn6WPLhJR9Q/viewform?embedded=true" />
+                    <ContactCard background={`linear-gradient(220deg, #799f0c, #acbb78)`} title1={"BITS STUDENT"} title2={"FOR INDUCTION?"} description={"We are very selective with whom we work with. If you think you have got what it takes, hit us up."} g_form="https://docs.google.com/forms/d/e/1FAIpQLSfukHzseT8V59igwKwoSCK58JTHL5PPiaAg5RdGn6WPLhJR9Q/viewform?embedded=true" />
                 </Col>
             </Row>
         </Container>
