@@ -8,7 +8,7 @@ import Container from "react-bootstrap/Container";
 const TeamCardGitless = ({ name, title, link_linkedin, link_mail, link_github, img }) => (
   <div className={teamCardStyle.teamCardOuter}>
     <Container fluid="true" className={teamCardStyle.teamCardInner} style={{
-      height: `inherit`, padding: `0`, margin: `0`, overflow: `hidden`, backgroundImage: "url(" + img + ")"
+      height: `inherit`, padding: `0`, margin: `0`, overflow: `hidden`, backgroundImage: "linear-gradient(0deg, rgba(44, 43, 43, 0.8), rgba(44, 43, 43, 0.4), rgba(44, 43, 43, 0.2), rgba(44, 43, 43, 0)), url(" + img + ")"
     }}>
       <p className={teamCardStyle.name}>{name}</p>
       <p className={teamCardStyle.post}><b>{title}</b></p>

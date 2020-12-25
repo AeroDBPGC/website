@@ -1,5 +1,5 @@
 import React from "react"
-import { /*FaLinkedin,*/ FaGithub, FaFacebook, /*FaInstagram,*/ FaWikipediaW, FaEnvelope, FaMedium, FaLinkedin } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaFacebook, /*FaInstagram,*/ FaWikipediaW, FaEnvelope, FaMedium } from 'react-icons/fa';
 import footerCardStyle from "../styles/footer/footer.module.scss"
 
 // const style = {
