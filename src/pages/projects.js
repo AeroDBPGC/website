@@ -30,7 +30,7 @@ const ProjectPage = () => (
       </Row>
       <Row>
         <Col>
-          <ProjectCard title={"CAD Design"} description={"Design and build aircrafts using CAD."}
+          <ProjectCard title={"Design"} description={"Design and build aircrafts using CAD."}
             img={plane} repoLink={"https://github.com/Aerodynamics-Club/Design"} />
         </Col>
       </Row>
