@@ -53,16 +53,17 @@ const IndexPage = () => (
               </Link>
             </Col>
           </Row>
+          
           <Row className={homePageStyle.row}>
             <Col className={homePageStyle.col} lg={4} md={6}>
-              <Link to="/blog/" className={homePageStyle.link}>
+              <a style = {{ color:'#000', textDecoration: 'none'}} href="https://medium.com/@ic.aero">
                 <div className={homePageStyle.card3}>
                   <div>
                     <p className={homePageStyle.linkTitle}>CHECK</p>
                     <p className={homePageStyle.linkTitle}>THE BLOG→</p>
                   </div>
                 </div>
-              </Link>
+              </a>
             </Col>
             <Col className={homePageStyle.col} lg={8} md={6}>
               <Link to="/contact/" className={homePageStyle.link}>
