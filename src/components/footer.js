@@ -1,12 +1,12 @@
 import React from "react"
-import { /*FaLinkedin,*/ FaGithub, FaFacebook, /*FaInstagram,*/ FaWikipediaW, FaEnvelope, FaMedium, FaLinkedin } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaFacebook, /*FaInstagram,*/ FaWikipediaW, FaEnvelope, FaMedium } from 'react-icons/fa';
 import footerCardStyle from "../styles/footer/footer.module.scss"
 
-const style = {
-  textAlign: `center`,
-  lineHeight: `1`,
-  fontSize: `1rem`,
-}
+// const style = {
+//   textAlign: `center`,
+//   lineHeight: `1`,
+//   fontSize: `1rem`,
+// }
 
 const style2 = {
   textAlign: `center`,
@@ -27,7 +27,7 @@ const Footer = () => (
         <a aria-label="Medium" className={footerCardStyle.icon} href={'https://medium.com/@ic.aero'}><FaMedium color="#000" /></a>
       </div >
     </div >
-    <h5 style={style2}>Made over sips of ☕  by <a href="https://github.com/devgoel186">Dev Goel</a>,<a href="https://github.com/varunbankar">Varun Bankar</a> and <a href="https://github.com/bharat787">Bharat Gupta</a></h5>
+    <h5 style={style2}>Made over sips of <span role="img" aria-label="coffee">☕</span>  by <a href="https://github.com/devgoel186">Dev Goel</a>,<a href="https://github.com/varunbankar">Varun Bankar</a> and <a href="https://github.com/bharat787">Bharat Gupta</a></h5>
     <h5 style={style2}>AERODYNAMICS CLUB © 2020-2021</h5>
 
   </footer >

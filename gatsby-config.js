@@ -10,49 +10,24 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `src`,
-        path: `${__dirname}/src/`,
+        name: `images`,
+        path: `${__dirname}/src/images`,
       },
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          `gatsby-remark-relative-images`, //Convert image src(s) in markdown to be relative to their node’s parent directory. 
-          {
-            resolve: `gatsby-remark-images`, //Processes images in markdown so they can be used in the production build.
-            options: {
-              linkImagesToOriginal: false,
-              /*Can add other options here*/
-            }
-          }
-        ]
-      }
     },
     `gatsby-transformer-sharp`,
-    {
-      resolve: `gatsby-plugin-sharp`,
-      options: {        
-        failOnError: false,
-      },
-    },
+    `gatsby-plugin-sharp`,
     // {
     //   resolve: `gatsby-plugin-manifest`,
     //   options: {
     //     name: `gatsby-starter-default`,
     //     short_name: `starter`,
     //     start_url: `/`,
-    //     background_color: `#5fc7f7`,
-    //     theme_color: `#5fc7f7`,
-    //     display: `minimal-ui`, // This path is relative to the root of the site.
+    //     background_color: `#663399`,
+    //     theme_color: `#663399`,
+    //     display: `minimal-ui`,
+    //     icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
     //   },
     // },
-    {
-      resolve: `gatsby-plugin-disqus`,
-      options: {
-        shortname: `aerod-bpgc`
-      }
-    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
