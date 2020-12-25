@@ -32,21 +32,21 @@ module.exports = {
     `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-sharp`,
-      options: {
-        stripMetadata: false,        
+      options: {        
+        failOnError: false,
       },
     },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#5fc7f7`,
-        theme_color: `#5fc7f7`,
-        display: `minimal-ui`, // This path is relative to the root of the site.
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-manifest`,
+    //   options: {
+    //     name: `gatsby-starter-default`,
+    //     short_name: `starter`,
+    //     start_url: `/`,
+    //     background_color: `#5fc7f7`,
+    //     theme_color: `#5fc7f7`,
+    //     display: `minimal-ui`, // This path is relative to the root of the site.
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
