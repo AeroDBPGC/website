@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
           <Nav.Link className="text-center"><Link className={navbarStyle.navLink} activeClassName={navbarStyle.activeLink} to="/">Home</Link></Nav.Link>
           <Nav.Link className="text-center"><Link className={navbarStyle.navLink} activeClassName={navbarStyle.activeLink} to="/projects">Projects</Link></Nav.Link>
           <Nav.Link className="text-center"><Link className={navbarStyle.navLink} activeClassName={navbarStyle.activeLink} to="/about">About</Link></Nav.Link>
-          <Nav.Link className="text-center"><Link className={navbarStyle.navLink} activeClassName={navbarStyle.activeLink} to="/blog">Blog</Link></Nav.Link>
+          <Nav.Link href="https://medium.com/@ic.aero"><span className={navbarStyle.navLink} activeClassName={navbarStyle.activeLink}>Blog</span></Nav.Link>
           <Nav.Link className="text-center"><Link className={navbarStyle.navLink} activeClassName={navbarStyle.activeLink} to="/contact">Contact</Link></Nav.Link>
           </Nav>
       </Navbar.Collapse>
