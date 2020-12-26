@@ -17,7 +17,7 @@ import Footer from "../components/footer"
 import GenMav from "../images/genmav.png"
 import plane from "../images/Plane.png"
 import Phoenix from "../images/phoenix.jpeg"
-import STS from "../images/STS.png"
+import STS from "../images/STS2.jpeg"
 
 // Project page.
 const ProjectPage = () => (
