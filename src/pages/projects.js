@@ -16,6 +16,8 @@ import Footer from "../components/footer"
 // Import project images
 import GenMav from "../images/genmav.png"
 import plane from "../images/Plane.png"
+import Phoenix from "../images/phoenix.jpeg"
+import STS from "../images/STS.png"
 
 // Project page.
 const ProjectPage = () => (
@@ -31,13 +33,13 @@ const ProjectPage = () => (
       <Row>
         <Col>
           <ProjectCard title={"Project Phoenix"} description={"Design and build aircraft using CAD."}
-            img={plane} repoLink={"https://github.com/Aerodynamics-Club/Design"} />
+            img={Phoenix} repoLink={"https://github.com/Aerodynamics-Club/Design"} />
         </Col>
       </Row>
       <Row>
         <Col>
           <ProjectCard title={"Static Thrust Test Stand"} description={"Design a test bed to research and develop prototypes"} 
-          img={plane} repoLink={"https://github.com/Aerodynamics-Club/Design"}/>
+          img={STS} repoLink={"https://github.com/Aerodynamics-Club/Design"}/>
         </Col>
       </Row>
     </Container>
