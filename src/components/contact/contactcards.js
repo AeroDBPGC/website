@@ -13,7 +13,7 @@ const ContactCard = (props) => {
 
     return (
       <>
-        <div className={contactCardStyle.contactCard} style={{ background:`${props.background}`}} onClick={handleShow}>
+        <div role="presentation" className={contactCardStyle.contactCard} style={{ background:`${props.background}`}} onClick={handleShow}>
             <div>
               <p className={contactCardStyle.linkTitle}>{ props.title1 }</p>
               <p className={contactCardStyle.linkTitle}>{ props.title2 }</p>
