@@ -1,5 +1,5 @@
 import React from "react"
-import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 import teamCardStyle from "../../styles/about/teamcard.module.scss"
 
