@@ -6,7 +6,7 @@
     background-repeat: repeat-x;
     height:90vh;  
     width: 100vw;
-    animation: moving 50s linear infinite;
+    animation: moving 10s linear infinite;
     //border: solid black 2px;
 }
 
@@ -32,7 +32,7 @@
 
 @keyframes moving{
     to{
-      background-position: -110% 0;
+      background-position: -18.5rem 0;
     }
 }
 
@@ -40,65 +40,13 @@
     to{
       margin-top:-100px;
     }
-  }
+}
 
-  @keyframes rotate{
+@keyframes rotate{
     50%{
       transform: rotate(-15deg);
     }
     75%{
       transform: rotate(20deg);
     }
-  }
-
-  @media (max-width: 575.98px) { 
-
-    .clouds{
-        animation: moving 3s linear infinite;
-      }
-
-      .container2 {
-        position: relative;
-    
-        .logowrapper {
-            position: absolute;
-            padding: 0;
-            margin: 0;
-            left: 15%;
-            right: 25%;
-            bottom: 40%;
-            text-align: center;
-            width: auto;
-        }
-    }
 }
-
-@media (min-width: 576px) and (max-width: 767.98px) { 
-    .clouds{
-        animation: moving 3s linear infinite;
-      }
-
-      .container2 {
-        position: relative;
-    
-        .logowrapper {
-            position: absolute;
-            padding: 0;
-            margin: 0;
-            left: 15%;
-            right: 25%;
-            bottom: 40%;
-            text-align: center;
-            width: auto;
-        }
-    }
-    
-
-    }
-
-    // Medium devices (tablets, 768px and up)
-    @media (min-width: 768px) and (max-width: 991.98px) { 
-        .clouds{
-            animation: moving 3s linear infinite;
-          }
-     }
