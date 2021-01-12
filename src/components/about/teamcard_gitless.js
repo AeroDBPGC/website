@@ -7,13 +7,18 @@ import teamCardStyle from "../../styles/about/teamcard.module.scss"
 import Container from "react-bootstrap/Container";
 
 const TeamCardGitless = ({ name, title, link_linkedin, link_mail, img }) => {
+  const backgroundFluidImageStack = [
+    `linear-gradient(0deg, rgba(44, 43, 43, 0.8), rgba(44, 43, 43, 0.4), rgba(44, 43, 43, 0.2), rgba(44, 43, 43, 0))`,
+    img
+  ]
+
   return (
       <Container
         fluid="true"
         className={teamCardStyle.teamCardOuter}        
       >
         <BackgroundImage
-          fluid={img}
+          fluid={backgroundFluidImageStack}
           className={teamCardStyle.teamCardInner}
           style={{
             height: `inherit`,
