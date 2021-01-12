@@ -23,6 +23,7 @@ const TeamCard = ({
         margin: `0`,
         overflow: `hidden`,
       }}
+      fadeIn
     >
       <p className={teamCardStyle.name}>{name}</p>
       <p className={teamCardStyle.post}>

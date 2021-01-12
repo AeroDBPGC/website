@@ -6,6 +6,7 @@ const TeamPicture = ({ img }) => (
     <BackgroundImage
       fluid={img}
       className={teamPictureStyle.teamPicture}
+      fadeIn
     ></BackgroundImage>
 )
 
