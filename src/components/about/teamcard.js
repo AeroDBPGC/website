@@ -1,33 +1,61 @@
 import React from "react"
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
-
+import BackgroundImage from "gatsby-background-image"
 import teamCardStyle from "../../styles/about/teamcard.module.scss"
 
 import Container from "react-bootstrap/Container";
 
-const TeamCard = ({ name, title, link_linkedin, link_mail, link_github, img }) => (
-  <div className={teamCardStyle.teamCardOuter}>
-    <Container fluid="true" className={teamCardStyle.teamCardInner} style={{
-      height: `inherit`, padding: `0`, margin: `0`, overflow: `hidden`, backgroundImage: "linear-gradient(0deg, rgba(44, 43, 43, 0.8), rgba(44, 43, 43, 0.4), rgba(44, 43, 43, 0.2), rgba(44, 43, 43, 0)), url(" + img + ")"
-    }}>
+const TeamCard = ({
+  name,
+  title,
+  link_linkedin,
+  link_mail,
+  link_github,
+  img,
+}) => {
+  const backgroundFluidImageStack = [
+    `linear-gradient(0deg, rgba(44, 43, 43, 0.8), rgba(44, 43, 43, 0.4), rgba(44, 43, 43, 0.2), rgba(44, 43, 43, 0))`,
+    img,
+  ]
+
+  return (<Container fluid="true" className={teamCardStyle.teamCardOuter}>
+    <BackgroundImage
+      fluid={backgroundFluidImageStack}
+      className={teamCardStyle.teamCardInner}
+      style={{
+        height: `inherit`,
+        padding: `0`,
+        margin: `0`,
+        overflow: `hidden`,
+      }}
+      fadeIn
+    >
       <p className={teamCardStyle.name}>{name}</p>
-      <p className={teamCardStyle.post}><b>{title}</b></p>
+      <p className={teamCardStyle.post}>
+        <b>{title}</b>
+      </p>
       <p className={teamCardStyle.tap}>(TAP TO CONNECT)</p>
-    </Container>
+    </BackgroundImage>
     <div className={teamCardStyle.socialIconContainer}>
       <div className={teamCardStyle.socialIconWrapper}>
         <div className={teamCardStyle.icon}>
-          <a aria-label="LinkedIn" href={link_linkedin}><FaLinkedin /></a>
+          <a aria-label="LinkedIn" href={link_linkedin}>
+            <FaLinkedin />
+          </a>
         </div>
         <div className={teamCardStyle.icon}>
-          <a aria-label="Github" href={link_github}><FaGithub color="#000" /></a>
+          <a aria-label="Github" href={link_github}>
+            <FaGithub color="#000" />
+          </a>
         </div>
         <div className={teamCardStyle.icon}>
-          <a aria-label="Mail" href={link_mail}><FaEnvelope color="#00bce4" /></a>
+          <a aria-label="Mail" href={link_mail}>
+            <FaEnvelope color="#00bce4" />
+          </a>
         </div>
       </div>
     </div>
-  </div>
-)
+  </Container>
+)}
 
 export default TeamCard
