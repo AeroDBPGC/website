@@ -1,5 +1,5 @@
 import React from "react"
-
+import { useStaticQuery, graphql } from "gatsby"
 // For Bootstrap responsive layout.
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -20,8 +20,40 @@ import Phoenix from "../images/phoenix.jpeg"
 import STS from "../images/STS2.jpeg"
 
 // Project page.
-const ProjectPage = () => (
-  <div className={projectsPageStyle.wrapper}>
+const ProjectPage = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      genmav: file(relativePath: { eq: "genmav.png" }) {
+        childImageSharp {
+          fluid(quality: 100) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      plane: file(relativePath: { eq: "Plane.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      phoenix: file(relativePath: { eq: "phoenix.jpeg" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      sts: file(relativePath: { eq: "STS2.jpeg" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }      
+    }
+  `)
+  return (<div className={projectsPageStyle.wrapper}>
     <Header siteTitle="PROJECTS THIS SEM" />
     <Container className={projectsPageStyle.container}>
       <Row>
@@ -45,6 +77,6 @@ const ProjectPage = () => (
     </Container>
     <Footer />
   </div>
-)
+)}
 
 export default ProjectPage
