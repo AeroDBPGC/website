@@ -28,7 +28,7 @@ const Footer = () => (
       </div >
     </div >
     <h5 style={style2}>Made over sips of <span role="img" aria-label="coffee">☕</span>  by <a href="https://github.com/devgoel186">Dev Goel</a>,<a href="https://github.com/varunbankar">Varun Bankar</a> and <a href="https://github.com/bharat787">Bharat Gupta</a></h5>
-    <h5 style={style2}>AERODYNAMICS CLUB © 2020-2021</h5>
+    <h5 style={style2}>AERODYNAMICS CLUB © 2021-2022</h5>
 
   </footer >
 )
